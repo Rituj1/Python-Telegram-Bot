@@ -2,9 +2,9 @@ from typing import Final
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes,filters
 
-TOKEN: Final = '6927548304:AAHerw3Sd_Lz9-HIGb2lCdto_Im9K1mvZZQ'
+TOKEN: Final = '####'
 
-BOT_USERNAME: Final = '@Ask_me_py_bot'
+BOT_USERNAME: Final = '####'
 
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
